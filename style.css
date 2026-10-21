@@ -1,0 +1,129 @@
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fff;
+  color: #000;
+  
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.navbar {
+  width: 90%;
+  max-width: 1000px;
+  margin: 12px auto 0;
+  position: sticky;
+  top: 12px;
+  z-index: 10;
+  padding: 0 16px;
+  height: 48px;
+  background: #333;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.logo {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.nav-links .book {
+  background: #b22b2b;
+  padding: 7px 12px;
+  border-radius: 20px;
+}
+
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+.courts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 32px;
+  width: 90%;
+  max-width: 836px;
+}
+
+
+.court {
+  width: 402px;
+  height: 558px;
+  border: 4px solid #000;
+  background: #000;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 112px 1fr;
+  gap: 2px;
+
+}
+  
+
+.box {
+  background: #349965;
+  
+}
+
+.net {
+  grid-column: 1 / -1;
+  background: #336699;
+}
+
+
+.content {
+  text-align: center;
+  margin-top: 48px;
+  max-width: 480px;
+  
+}
+
+.content h1 {
+  font-size: 26px;
+  margin-bottom: 14px;
+}
+
+.content p {
+  font-size: 13px;
+  line-height: 1.1;
+  margin-bottom: 14px;
+}
+
+.learn {
+  display: inline-block;
+  background: #d4b05a;
+  color: #000;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 11px 34px;
+  border-radius: 30px;
+}
+
+.blank {
+    min-height: 100vh;
+    
+}
